@@ -1,0 +1,68 @@
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+footer {
+    background-color: #11253E;
+    width: 100%;
+    color: #D0D0D0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.foot {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 90%;
+    padding: 2rem;
+}
+
+.company {
+    width: 25%;
+    min-width: 15rem;
+    text-align: left;
+    color: #fff;
+}
+
+.about {
+    font-size: 1rem;
+    color: #D0D0D0;
+}
+
+.foot ul {
+    list-style: none;
+    text-decoration: none;
+}
+
+.foot ul li a {
+    text-decoration: none;
+    display: block;
+    color: #D0D0D0;
+    padding: 3px 0;
+}
+
+.foot ul h3 {
+    color: #fff;
+    margin-bottom: 0.6rem;
+}
+@media (max-width: 900px) {
+    .foot{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        width: 20rem;
+    }
+    .foot {
+        margin-bottom: 5rem;
+            gap:2rem
+            ;
+            
+        }
+ 
+}
